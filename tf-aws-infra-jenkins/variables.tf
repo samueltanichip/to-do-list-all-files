@@ -25,7 +25,7 @@ variable "key_name" {
 variable "instance_type" {
   description = "Tipo da instancia"
   type        = string
-  default     = "t3a.large"
+  default     = "t3.medium"
 }
 
 variable "subnet_id" {
